@@ -17,8 +17,26 @@ function suma($x){
 suma(12);
 
 
+function primo($numero){
+    for ($divisot=0; $divisot <=$numero ; $divisot++) { 
+        if($numero%2==0){
+            return false;
+        }
+    }
+    return true;
+}
+$numero=22;
+if (primo($numero)) {
+    echo "el  numero :$numero es primo";
+}else{
+    echo "el numero: $numero no es primo"; 
+}
+
+echo "<br>";
 function promedio_alumno($nota_1,$nota_2,$nota_3) {
     $promedio=($nota_1+$nota_2+$nota_3)/3;
     return $promedio;
 }
 echo "el promedio es : ".promedio_alumno(17,10,18);
+
+

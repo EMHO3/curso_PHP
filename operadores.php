@@ -6,5 +6,6 @@ $numero2=3;
 echo $numero1+$numero2+47;
 echo $numero1/$numero2;
 echo $numero1*$numero2;
+//echo $numero1%$numero2;  //divisible
 
-echo $numero1**$numero2;//exponenciacion 
+echo $numero1**$numero2; //exponenciacion 

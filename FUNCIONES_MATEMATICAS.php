@@ -10,6 +10,10 @@ echo sqrt(25)."<br>";
 //calculka un numero aleatorio
 echo rand(1,20)."<br>";
 
+//binario a decimal 
+echo bindec(1100110);
+echo "<br>";
+
 //redondear un numero hacia abajo
 echo floor (4.9)."<br>";
 echo floor (8.1)."<br>";

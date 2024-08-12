@@ -2,6 +2,7 @@
 //Como OBTENER la FECHA ACTUAL en ESPAÑOL en PHP [FUNCION PROPIA]
 date_default_timezone_set("America/Lima");
 
+
 function fecha_espanol(){
     $fecha_dia=date("d");
     $fecha_mes=date("m");

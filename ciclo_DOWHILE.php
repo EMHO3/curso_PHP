@@ -26,3 +26,5 @@ do {
     echo $numer. " X ".$a." = ".$numer*$a ."<br>";
     $a--;
 } while ($a >=1 );
+
+
